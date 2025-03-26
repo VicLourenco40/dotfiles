@@ -1,3 +1,5 @@
+let g:user42='vde-albu'
+let g:mail42='vde-albu@student.42porto.com'
 syntax on
 set number
 set relativenumber
