@@ -2,6 +2,7 @@
 [[ $- != *i* ]] && return
 
 source "$HOME/.bashrc"
+source <(fzf --zsh)
 
 PROMPT='%n@%m %1~ %# '
 
