@@ -10,5 +10,5 @@ alias ccw='cc -Wall -Wextra -Werror'
 alias norm='norminette -R CheckForbiddenSourceHeader -R CheckDefine'
 
 export PATH="$PATH:$HOME/.local/bin"
-export HISTCONTROL='ignoredups'
+export HISTCONTROL='erasedups'
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"

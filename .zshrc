@@ -5,4 +5,4 @@ source "$HOME/.bashrc"
 
 PROMPT='%n@%m %1~ %# '
 
-setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
