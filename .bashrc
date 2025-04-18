@@ -16,4 +16,3 @@ export HISTCONTROL='erasedups'
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 
 eval "$($HOME/homebrew/bin/brew shellenv)"
-eval "$(fzf --bash)"
