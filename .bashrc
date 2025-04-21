@@ -6,7 +6,7 @@ PS1='\u@\h \W \$ '
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-alias bitwarden="$HOME/.local/bin/bitwarden.AppImage > /dev/null 2>&1"
+alias bitwarden="$HOME/.local/bin/bitwarden.AppImage > /dev/null 2>&1 &"
 alias ccw='cc -Wall -Wextra -Werror'
 alias norm='norminette -R CheckForbiddenSourceHeader -R CheckDefine'
 alias paco="$HOME/francinette/tester.sh --timeout 3600"
