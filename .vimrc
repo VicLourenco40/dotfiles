@@ -13,5 +13,5 @@ set tabstop=4
 set shiftwidth=4
 set scrolloff=10
 set autoindent
-set smartindent
+set cindent
 nnoremap <Leader>f :FZF<CR>
