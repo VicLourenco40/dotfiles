@@ -1,6 +1,6 @@
 let g:user42='vde-albu'
 let g:mail42='vde-albu@student.42porto.com'
-let mapleader=" "
+let mapleader=' '
 syntax on
 set background=dark
 set clipboard=unnamedplus
