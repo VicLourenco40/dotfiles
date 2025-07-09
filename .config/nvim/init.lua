@@ -1,7 +1,7 @@
-vim.g.user42 = 'vde-albu'
-vim.g.mail42 = 'vde-albu@student.42porto.com'
-vim.g.mapleader = ' '
-vim.o.clipboard = 'unnamedplus'
+vim.g.user42 = "vde-albu"
+vim.g.mail42 = "vde-albu@student.42porto.com"
+vim.g.mapleader = " "
+vim.o.clipboard = "unnamedplus"
 vim.o.undofile = true
 vim.o.number = true
 vim.o.relativenumber = true
@@ -9,3 +9,4 @@ vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.scrolloff = 10
 vim.o.cindent = true
+vim.keymap.set("n", "<leader>f", "<cmd>FZF<cr>")
