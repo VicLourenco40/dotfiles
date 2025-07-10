@@ -1,3 +1,12 @@
+let g:user42='vde-albu'
+let g:mail42='vde-albu@student.42porto.com'
+
+let mapleader=' '
+let maplocalleader=' '
+
+syntax on
+set background=dark
+
 set number
 set relativenumber
 
