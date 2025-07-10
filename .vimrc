@@ -1,8 +1,8 @@
 syntax on
 
-let g:user42="vde-albu"
-let g:mail42="vde-albu@student.42porto.com"
-let mapleader=" "
+let g:user42='vde-albu'
+let g:mail42='vde-albu@student.42porto.com'
+let mapleader=' '
 
 set background=dark
 set clipboard=unnamedplus
