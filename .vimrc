@@ -1,6 +1,3 @@
-let g:user42='vde-albu'
-let g:mail42='vde-albu@student.42porto.com'
-
 let mapleader=' '
 let maplocalleader=' '
 
@@ -13,14 +10,16 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 set autoindent
-set cindent
+set smartindent
 set breakindent
 
-set cursorline
 set scrolloff=10
 
 set laststatus=2
 set confirm
+
+set splitright
+set splitbelow
 
 set undofile
 set undodir=~/.vim/undodir
@@ -31,5 +30,3 @@ set smartcase
 
 set updatetime=250
 set timeoutlen=300
-
-nnoremap <Leader>f :FZF<CR>
