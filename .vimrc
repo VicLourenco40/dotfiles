@@ -22,7 +22,7 @@ set splitright
 set splitbelow
 
 set undofile
-set undodir=~/.vim/undodir
+set undodir=~/.vim/undo
 set clipboard=unnamedplus
 
 set ignorecase
